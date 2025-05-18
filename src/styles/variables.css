@@ -1,0 +1,70 @@
+/* src/styles/variables.css - Mise à jour avec les nouvelles polices */
+
+:root {
+  /* Palette de couleurs */
+  --primary-color: #BF9D5E; /* Or/beige pour les accents et boutons */
+  --primary-dark: #A88A4D; /* Version plus foncée pour les hovers */
+  --primary-light: #D4B77C; /* Version plus claire pour les backgrounds légers */
+  --secondary-color: #0E5936; /* Vert foncé pour les titres et éléments importants */
+  --secondary-light: #308C50; /* Vert moyen pour les variantes et hovers */
+  --text-color: #01261C; /* Vert très foncé pour le texte principal */
+  --text-light: #6B7271; /* Gris verdâtre pour le texte secondaire */
+  --background-color: #ffffff; /* Blanc pour le fond */
+  --background-alt: #F9F9F9; /* Gris très clair pour les sections alternées */
+  --accent-color: #308C50; /* Vert moyen pour les accents */
+  --success-color: #308C50; /* Vert moyen pour les succès */
+  --warning-color: #BF9D5E; /* Or/beige pour les avertissements */
+  --error-color: #c0392b; /* Rouge pour les erreurs (inchangé) */
+  
+  /* Nouvelles typographies */
+  --font-main: 'General Sans', sans-serif;
+  --font-heading: 'Be Vietnam Pro', sans-serif;
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 2rem;
+  --font-size-4xl: 2.5rem;
+  --font-size-5xl: 3rem;
+  
+  /* Espacement */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 3rem;
+  --spacing-3xl: 4rem;
+  
+  /* Bordures */
+  --border-radius-sm: 0.25rem;
+  --border-radius-md: 0.5rem;
+  --border-radius-lg: 1rem;
+  --border-width: 1px;
+  
+  /* Ombres */
+  --shadow-sm: 0 1px 3px rgba(1, 38, 28, 0.12), 0 1px 2px rgba(1, 38, 28, 0.24);
+  --shadow-md: 0 4px 6px rgba(1, 38, 28, 0.1), 0 1px 3px rgba(1, 38, 28, 0.08);
+  --shadow-lg: 0 10px 15px -3px rgba(1, 38, 28, 0.1), 0 4px 6px -2px rgba(1, 38, 28, 0.05);
+  
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+  --transition-slow: 0.5s ease;
+  
+  /* Breakpoints */
+  --breakpoint-xs: 480px;
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  
+  /* Layout */
+  --container-padding: 1.5rem;
+  --container-max-width: 1200px;
+  --header-height: 80px;
+  --footer-height: 250px;
+  --section-padding: 5rem 0;
+}

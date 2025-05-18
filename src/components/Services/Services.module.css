@@ -1,0 +1,335 @@
+/* src/components/Services/Services.module.css */
+
+.servicesSection {
+  padding: var(--section-padding);
+  background-color: white;
+}
+
+.servicesContainer {
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+}
+
+.servicesDescription {
+  max-width: 800px;
+  margin: 0 auto var(--spacing-2xl);
+  text-align: center;
+}
+
+.servicesGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--spacing-2xl);
+}
+
+.serviceCard {
+  position: relative;
+  border-radius: var(--border-radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+  height: 100%;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.serviceCard:hover {
+  transform: translateY(-10px);
+  box-shadow: var(--shadow-lg);
+}
+
+.serviceImageContainer {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+}
+
+.serviceImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--transition-normal);
+}
+
+.serviceCard:hover .serviceImage {
+  transform: scale(1.05);
+}
+
+.serviceIcon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: var(--font-size-2xl);
+  box-shadow: var(--shadow-md);
+}
+
+.serviceContent {
+  padding: var(--spacing-xl);
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.serviceTitle {
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  margin-bottom: var(--spacing-md);
+  color: var(--secondary-color);
+}
+
+.serviceDescription {
+  color: var(--text-light);
+  margin-bottom: var(--spacing-lg);
+  flex-grow: 1;
+}
+
+.serviceFeatures {
+  margin-bottom: var(--spacing-lg);
+}
+
+.serviceFeature {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--spacing-xs);
+  font-size: var(--font-size-sm);
+}
+
+.serviceFeatureIcon {
+  color: var(--primary-color);
+  margin-right: var(--spacing-sm);
+}
+
+.servicePrice {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: var(--spacing-md);
+}
+
+.servicePriceValue {
+  font-size: var(--font-size-2xl);
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.servicePriceLabel {
+  font-size: var(--font-size-sm);
+  color: var(--text-light);
+  margin-left: var(--spacing-xs);
+}
+
+.serviceButton {
+  align-self: flex-start;
+}
+
+.servicesViewMore {
+  text-align: center;
+  margin-top: var(--spacing-2xl);
+}
+
+.servicesFeatured {
+  text-align: center;
+  margin-top: var(--spacing-3xl);
+}
+
+.servicesFeaturedTitle {
+  font-size: var(--font-size-2xl);
+  font-weight: 700;
+  margin-bottom: var(--spacing-md);
+  color: var(--secondary-color);
+}
+
+.servicesFeaturedDescription {
+  max-width: 700px;
+  margin: 0 auto var(--spacing-2xl);
+}
+
+.processList {
+  margin-top: var(--spacing-2xl);
+}
+
+.processTitle {
+  text-align: center;
+  font-size: var(--font-size-2xl);
+  font-weight: 700;
+  margin-bottom: var(--spacing-2xl);
+  color: var(--secondary-color);
+}
+
+.processSteps {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--spacing-2xl);
+  position: relative;
+}
+
+.processSteps::before {
+  content: '';
+  position: absolute;
+  top: 40px;
+  left: 60px;
+  right: 60px;
+  height: 3px;
+  background-color: var(--primary-color);
+  z-index: 0;
+}
+
+.processStep {
+  text-align: center;
+  width: 120px;
+  z-index: 1;
+}
+
+.processStepNumber {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  color: white;
+  font-size: var(--font-size-2xl);
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto var(--spacing-md);
+  box-shadow: var(--shadow-md);
+}
+
+.processStepTitle {
+  font-weight: 600;
+  margin-bottom: var(--spacing-xs);
+  color: var(--secondary-color);
+}
+
+.processStepDescription {
+  font-size: var(--font-size-sm);
+  color: var(--text-light);
+}
+
+.faqSection {
+  margin-top: var(--spacing-3xl);
+}
+
+.faqTitle {
+  text-align: center;
+  font-size: var(--font-size-2xl);
+  font-weight: 700;
+  margin-bottom: var(--spacing-2xl);
+  color: var(--secondary-color);
+}
+
+.faqGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--spacing-xl);
+}
+
+.faqItem {
+  border: 1px solid #e0e0e0;
+  border-radius: var(--border-radius-md);
+  margin-bottom: var(--spacing-md);
+  overflow: hidden;
+}
+
+.faqQuestion {
+  padding: var(--spacing-md) var(--spacing-lg);
+  background-color: var(--background-alt);
+  font-weight: 600;
+  color: var(--secondary-color);
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color var(--transition-normal);
+}
+
+.faqQuestion:hover {
+  background-color: rgba(217, 171, 85, 0.1);
+}
+
+.faqQuestionIcon {
+  transition: transform var(--transition-normal);
+}
+
+.faqQuestionActive .faqQuestionIcon {
+  transform: rotate(180deg);
+}
+
+.faqAnswer {
+  padding: 0 var(--spacing-lg);
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height var(--transition-normal), padding var(--transition-normal);
+}
+
+.faqAnswerVisible {
+  padding: var(--spacing-lg);
+  max-height: 500px;
+}
+
+.cta {
+  margin-top: var(--spacing-3xl);
+  background-color: var(--background-alt);
+  padding: var(--spacing-2xl);
+  border-radius: var(--border-radius-lg);
+  text-align: center;
+}
+
+.ctaTitle {
+  font-size: var(--font-size-2xl);
+  font-weight: 700;
+  margin-bottom: var(--spacing-md);
+  color: var(--secondary-color);
+}
+
+.ctaDescription {
+  max-width: 700px;
+  margin: 0 auto var(--spacing-xl);
+}
+
+.ctaButtons {
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-md);
+}
+
+@media (max-width: 1024px) {
+  .servicesGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .processSteps {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--spacing-2xl);
+  }
+  
+  .processSteps::before {
+    display: none;
+  }
+  
+  .faqGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .servicesGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .ctaButtons {
+    flex-direction: column;
+    align-items: center;
+  }
+}

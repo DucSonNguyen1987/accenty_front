@@ -1,0 +1,158 @@
+/* src/components/Team/Team.module.css */
+
+.teamSection {
+  padding: var(--section-padding);
+  background-color: white;
+}
+
+.teamContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.teamDescription {
+  max-width: 800px;
+  margin: 0 auto var(--spacing-2xl);
+  text-align: center;
+}
+
+.teamGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--spacing-2xl);
+  margin-bottom: var(--spacing-2xl);
+}
+
+.teamMember {
+  text-align: center;
+  transition: transform var(--transition-normal);
+}
+
+.teamMember:hover {
+  transform: translateY(-10px);
+}
+
+.memberImageContainer {
+  position: relative;
+  width: 100%;
+  border-radius: var(--border-radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  margin-bottom: var(--spacing-md);
+  aspect-ratio: 1;
+}
+
+.memberImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--transition-normal);
+}
+
+.teamMember:hover .memberImage {
+  transform: scale(1.05);
+}
+
+.memberOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgba(44, 62, 80, 0.8), transparent 70%);
+  opacity: 0;
+  transition: opacity var(--transition-normal);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: var(--spacing-lg);
+}
+
+.teamMember:hover .memberOverlay {
+  opacity: 1;
+}
+
+.memberSocial {
+  display: flex;
+  gap: var(--spacing-sm);
+}
+
+.socialLink {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: white;
+  color: var(--secondary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--transition-normal);
+}
+
+.socialLink:hover {
+  background-color: var(--primary-color);
+  color: white;
+  transform: translateY(-3px);
+}
+
+.memberInfo {
+  padding: var(--spacing-md);
+}
+
+.memberName {
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  margin-bottom: var(--spacing-xs);
+  color: var(--secondary-color);
+}
+
+.memberRole {
+  font-size: var(--font-size-md);
+  color: var(--primary-color);
+  font-weight: 600;
+  margin-bottom: var(--spacing-md);
+}
+
+.memberBio {
+  color: var(--text-light);
+  font-size: var(--font-size-sm);
+  line-height: 1.6;
+  margin-bottom: var(--spacing-md);
+}
+
+.memberSkills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-xs);
+  justify-content: center;
+  margin-top: var(--spacing-md);
+}
+
+.skill {
+  font-size: var(--font-size-xs);
+  background-color: var(--background-alt);
+  color: var(--secondary-color);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border-radius: 15px;
+  font-weight: 500;
+}
+
+.viewMoreButton {
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 992px) {
+  .teamGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .teamGrid {
+    grid-template-columns: 1fr;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
