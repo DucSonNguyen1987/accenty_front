@@ -18,7 +18,7 @@ const Services = ({ title, subtitle, description, services, showButton = false }
         'Design et décoration personnalisés',
         'Coordination le jour J'
       ],
-      price: 'À partir de 3 500 €'
+      price: 'À partir de 3 500 USD$'
     },
     {
       id: 'corporate',
@@ -32,7 +32,7 @@ const Services = ({ title, subtitle, description, services, showButton = false }
         'Team building et incentives',
         'Soirées d\'entreprise'
       ],
-      price: 'À partir de 2 500 €'
+      price: 'À partir de 2 500 USD$'
     },
     {
       id: 'private',
@@ -46,7 +46,7 @@ const Services = ({ title, subtitle, description, services, showButton = false }
         'Réunions familiales',
         'Soirées à thème'
       ],
-      price: 'À partir de 1 500 €'
+      price: 'À partir de 1 500 USD$'
     },
     {
       id: 'launch',
@@ -60,7 +60,7 @@ const Services = ({ title, subtitle, description, services, showButton = false }
         'Relations presse et médias',
         'Évaluation des retombées'
       ],
-      price: 'À partir de 4 000 €'
+      price: 'À partir de 4 000 USD$'
     }
   ];
   

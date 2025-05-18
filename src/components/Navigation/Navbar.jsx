@@ -2,10 +2,12 @@
 import React, { useState, useEffect } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import styles from './Navbar.module.css';
+import { useAuth } from '../../context/AuthContext';
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const { currentUser, logout, isAuthenticated } = useAuth();
 
   // Détecte le scroll de la page
   useEffect(() => {
@@ -99,6 +101,32 @@ const Navbar = () => {
           Prendre RDV
         </Link>
 
+        {isAuthenticated ? (
+    <div className={styles.userMenu}>
+      <div className={styles.userMenuToggle}>
+        <span className={styles.userName}>
+          {currentUser?.name?.split(' ')[0] || 'Mon compte'}
+        </span>
+        <i className="fas fa-chevron-down"></i>
+      </div>
+      <div className={styles.userMenuDropdown}>
+        <Link to="/project-tracking" className={styles.userMenuItem}>
+          <i className="fas fa-tasks"></i> Mes projets
+        </Link>
+        <button 
+          onClick={logout} 
+          className={styles.userMenuItem}
+        >
+          <i className="fas fa-sign-out-alt"></i> Déconnexion
+        </button>
+      </div>
+    </div>
+  ) : (
+    <Link to="/login" className={`button outline ${styles.loginButton}`}>
+      <i className="fas fa-user"></i> Connexion
+    </Link>
+  )}
+
         <button 
           className={styles.mobileMenuButton} 
           onClick={toggleMobileMenu}
@@ -165,6 +193,28 @@ const Navbar = () => {
         <Link to="/appointment" className={`button ${styles.mobileNavCta}`}>
           Prendre RDV
         </Link>
+
+        {isAuthenticated ? (
+    <>
+      <li className={styles.mobileNavLink}>
+        <Link to="/project-tracking">
+          <i className="fas fa-tasks"></i> Mes projets
+        </Link>
+      </li>
+      <li className={styles.mobileNavLink}>
+        <button onClick={logout}>
+          <i className="fas fa-sign-out-alt"></i> Déconnexion
+        </button>
+      </li>
+    </>
+  ) : (
+    <li className={styles.mobileNavLink}>
+      <Link to="/login">
+        <i className="fas fa-user"></i> Connexion
+      </Link>
+    </li>
+  )}
+
       </div>
     </nav>
   );

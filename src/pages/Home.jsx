@@ -1,5 +1,3 @@
-// src/pages/Home.jsx (mise à jour avec les noms congolais dans les témoignages)
-
 import React from 'react';
 import Hero from '../components/Hero/Hero';
 import Services from '../components/Services/Services';
@@ -8,6 +6,10 @@ import Team from '../components/Team/Team';
 import Testimonials from '../components/Testimonials/Testimonials';
 import ContactForm from '../components/Contact/ContactForm';
 import { Link } from 'react-router-dom';
+
+
+
+
 
 const Home = () => {
   // Données pour les services à afficher sur la page d'accueil
@@ -102,28 +104,27 @@ const Home = () => {
       image: "/images/testimonials/testimonial3.jpg"
     }
   ];
-
   return (
-    <>
+    <div>
       <Hero />
-      
-      <Services 
-        title="Nos Services" 
-        subtitle="Des prestations sur-mesure pour tous vos événements" 
+
+      <Services
+        title="Nos Services"
+        subtitle="Des prestations sur-mesure pour tous vos événements"
         description="Chez Accenty & Co, nous proposons une gamme complète de services événementiels adaptés à vos besoins et à votre budget."
         services={featuredServices}
         showButton={true}
       />
-      
-      <Gallery 
-        title="Nos Réalisations" 
-        subtitle="Découvrez nos événements mémorables" 
+
+      <Gallery
+        title="Nos Réalisations"
+        subtitle="Découvrez nos événements mémorables"
         description="Explorez notre galerie d'événements exceptionnels que nous avons eu le plaisir d'organiser pour nos clients."
         items={featuredGalleryItems}
         showButton={true}
         limit={6}
       />
-      
+
       <Team 
         title="Notre Équipe" 
         subtitle="Des experts passionnés à votre service" 
@@ -131,14 +132,15 @@ const Home = () => {
         showButton={true}
         limit={3}
       />
-      
+
       <Testimonials
-        title="Ils Nous Font Confiance"
-        subtitle="La satisfaction de nos clients est notre priorité"
-        testimonials={testimonials}
-      />
-      
-      <section className="section" id="contact-section">
+              title="Ils Nous Font Confiance"
+              subtitle="La satisfaction de nos clients est notre priorité"
+              testimonials={testimonials}
+            />
+
+
+            <section className="section" id="contact-section">
         <div className="container">
           <div className="section-title">
             <h2>Contactez-Nous</h2>
@@ -157,15 +159,15 @@ const Home = () => {
               <div className="mt-4">
                 <p>
                   <i className="fas fa-map-marker-alt"></i>
-                  <span className="ml-2">123 Avenue des Événements, 75001 Paris</span>
+                  <span className="ml-2">382, avenue Colonel Mondjiba Quartier/ Basoko,<br/> Commune/ Ngaliema Kinshasa</span>
                 </p>
                 <p className="mt-2">
                   <i className="fas fa-phone"></i>
-                  <span className="ml-2">+33 1 23 45 67 89</span>
+                  <span className="ml-2">+243 894 79 79 36</span>
                 </p>
                 <p className="mt-2">
                   <i className="fas fa-envelope"></i>
-                  <span className="ml-2">contact@accenty-co.fr</span>
+                  <span className="ml-2">contact@accenty-co.org</span>
                 </p>
               </div>
               
@@ -180,7 +182,12 @@ const Home = () => {
           </div>
         </div>
       </section>
-    </>
+
+    </div>
+
+    
+
+
   );
 };
 

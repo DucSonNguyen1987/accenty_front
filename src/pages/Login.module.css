@@ -1,0 +1,145 @@
+/* src/pages/Login.module.css */
+
+.loginContainer {
+  max-width: 500px;
+  margin: 80px auto;
+  background-color: white;
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-md);
+  padding: var(--spacing-2xl);
+}
+
+.loginTitle {
+  text-align: center;
+  margin-bottom: var(--spacing-sm);
+  color: var(--secondary-color);
+}
+
+.loginSubtitle {
+  text-align: center;
+  color: var(--text-light);
+  margin-bottom: var(--spacing-xl);
+}
+
+.errorAlert {
+  background-color: #ffebee;
+  color: #c62828;
+  padding: var(--spacing-md);
+  border-radius: var(--border-radius-sm);
+  margin-bottom: var(--spacing-lg);
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+
+.loginForm {
+  margin-bottom: var(--spacing-lg);
+}
+
+.formGroup {
+  margin-bottom: var(--spacing-lg);
+}
+
+.formLabel {
+  display: block;
+  margin-bottom: var(--spacing-xs);
+  font-weight: 600;
+  color: var(--secondary-color);
+}
+
+.formInput {
+  width: 100%;
+  padding: var(--spacing-md);
+  border: 1px solid #e0e0e0;
+  border-radius: var(--border-radius-sm);
+  font-family: var(--font-main);
+  font-size: var(--font-size-md);
+  transition: border-color var(--transition-normal);
+}
+
+.formInput:focus {
+  border-color: var(--primary-color);
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(217, 171, 85, 0.2);
+}
+
+.formError {
+  color: #c62828;
+  font-size: var(--font-size-sm);
+  margin-top: var(--spacing-xs);
+}
+
+.forgotPassword {
+  text-align: right;
+  margin-bottom: var(--spacing-md);
+}
+
+.forgotPassword a {
+  color: var(--primary-color);
+  font-size: var(--font-size-sm);
+  text-decoration: none;
+}
+
+.forgotPassword a:hover {
+  text-decoration: underline;
+}
+
+.submitButton {
+  width: 100%;
+  padding: var(--spacing-md);
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: var(--border-radius-sm);
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color var(--transition-normal);
+}
+
+.submitButton:hover {
+  background-color: var(--primary-dark);
+}
+
+.submitButton:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.formSwitch {
+  text-align: center;
+  margin-top: var(--spacing-lg);
+  padding-top: var(--spacing-lg);
+  border-top: 1px solid #f0f0f0;
+}
+
+.switchButton {
+  background: none;
+  border: none;
+  color: var(--primary-color);
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0;
+}
+
+.switchButton:hover {
+  text-decoration: underline;
+}
+
+.demoInfo {
+  margin-top: var(--spacing-xl);
+  padding: var(--spacing-md);
+  background-color: #f0f7ff;
+  border-radius: var(--border-radius-sm);
+  font-size: var(--font-size-sm);
+}
+
+.demoInfo h4 {
+  color: #2196f3;
+  margin-bottom: var(--spacing-xs);
+}
+
+.demoInfo code {
+  background-color: #e3f2fd;
+  padding: 2px 4px;
+  border-radius: 3px;
+}

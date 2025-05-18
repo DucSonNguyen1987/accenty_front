@@ -318,3 +318,213 @@
     padding: var(--spacing-xs) var(--spacing-sm);
   }
 }
+
+/* Styles complémentaires pour AppointmentPage */
+
+.userGreeting {
+  background-color: rgba(217, 171, 85, 0.1);
+  border-left: 4px solid var(--primary-color);
+  padding: var(--spacing-md) var(--spacing-lg);
+  margin-bottom: var(--spacing-lg);
+  border-radius: var(--border-radius-sm);
+}
+
+.userGreeting i {
+  color: var(--primary-color);
+  margin-right: var(--spacing-xs);
+}
+
+.loginPrompt {
+  background-color: rgba(14, 89, 54, 0.1);
+  border-left: 4px solid var(--secondary-color);
+  padding: var(--spacing-md) var(--spacing-lg);
+  margin-bottom: var(--spacing-lg);
+  border-radius: var(--border-radius-sm);
+}
+
+.loginPrompt i {
+  color: var(--secondary-color);
+  margin-right: var(--spacing-xs);
+}
+
+.authButtons {
+  display: flex;
+  align-items: center;
+  margin-top: var(--spacing-md);
+  gap: var(--spacing-md);
+}
+
+.orDivider {
+  color: var(--text-light);
+  padding: 0 var(--spacing-xs);
+}
+
+.faqContainer {
+  margin-bottom: var(--spacing-xl);
+}
+
+.faqItem {
+  margin-bottom: var(--spacing-md);
+  border-bottom: 1px solid #f0f0f0;
+  padding-bottom: var(--spacing-md);
+}
+
+.faqQuestion {
+  margin-bottom: var(--spacing-xs);
+  color: var(--secondary-color);
+  font-weight: 600;
+}
+
+.faqQuestion i {
+  color: var(--primary-color);
+  margin-right: var(--spacing-xs);
+}
+
+.faqAnswer {
+  color: var(--text-light);
+}
+
+.contactInfo {
+  background-color: var(--background-alt);
+  padding: var(--spacing-lg);
+  border-radius: var(--border-radius-md);
+  margin-top: var(--spacing-xl);
+}
+
+.contactMethods {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+  margin-top: var(--spacing-md);
+}
+
+.contactMethod {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+}
+
+.contactMethod i {
+  color: var(--primary-color);
+  font-size: var(--font-size-lg);
+  width: 20px;
+  text-align: center;
+}
+
+.testimonialSection {
+  background-color: var(--background-alt);
+  padding: var(--spacing-3xl) 0;
+}
+
+.testimonialGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--spacing-xl);
+  margin-top: var(--spacing-xl);
+}
+
+.testimonialCard {
+  background-color: white;
+  border-radius: var(--border-radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+}
+
+.testimonialCard:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-md);
+}
+
+.testimonialContent {
+  padding: var(--spacing-lg);
+  font-style: italic;
+  color: var(--text-light);
+  position: relative;
+}
+
+.testimonialContent::before {
+  content: '"';
+  position: absolute;
+  top: 0;
+  left: var(--spacing-sm);
+  font-size: 3rem;
+  color: var(--primary-color);
+  opacity: 0.2;
+  line-height: 1;
+}
+
+.testimonialAuthor {
+  display: flex;
+  align-items: center;
+  padding: var(--spacing-md) var(--spacing-lg);
+  background-color: var(--background-alt);
+  border-top: 1px solid #f0f0f0;
+}
+
+.testimonialAvatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: var(--spacing-md);
+}
+
+.testimonialAvatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.testimonialInfo h4 {
+  margin-bottom: 0;
+  font-size: var(--font-size-md);
+}
+
+.testimonialInfo p {
+  margin-bottom: 0;
+  font-size: var(--font-size-sm);
+  color: var(--text-light);
+}
+
+.appointmentFormWrapper {
+  position: sticky;
+  top: var(--header-height);
+  align-self: flex-start;
+}
+
+/* Responsive styles */
+@media (max-width: 992px) {
+  .testimonialGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .appointmentGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .appointmentInfo {
+    order: 2;
+  }
+  
+  .appointmentFormWrapper {
+    order: 1;
+    position: static;
+    margin-bottom: var(--spacing-xl);
+  }
+  
+  .testimonialGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .authButtons {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .orDivider {
+    margin: var(--spacing-xs) 0;
+  }
+}

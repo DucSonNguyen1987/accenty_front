@@ -166,3 +166,103 @@
     display: flex;
   }
 }
+
+/* Styles pour le menu utilisateur dans la navbar */
+.userMenu {
+  position: relative;
+  margin-left: var(--spacing-md);
+}
+
+.userMenuToggle {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--secondary-color);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border-radius: var(--border-radius-sm);
+  transition: background-color var(--transition-normal);
+}
+
+.userMenuToggle:hover {
+  background-color: rgba(217, 171, 85, 0.1);
+}
+
+.userName {
+  max-width: 120px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.userMenuDropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 200px;
+  background-color: white;
+  border-radius: var(--border-radius-md);
+  box-shadow: var(--shadow-md);
+  padding: var(--spacing-sm) 0;
+  z-index: 1000;
+  display: none;
+}
+
+.userMenu:hover .userMenuDropdown {
+  display: block;
+}
+
+.userMenuItem {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-sm) var(--spacing-md);
+  color: var(--text-color);
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: var(--font-main);
+  font-size: var(--font-size-sm);
+  transition: background-color var(--transition-normal);
+}
+
+.userMenuItem:hover {
+  background-color: rgba(217, 171, 85, 0.1);
+}
+
+.loginButton {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+}
+
+/* Modifier les styles mobiles pour les boutons de connexion */
+@media (max-width: 768px) {
+  .userMenu {
+    display: none;
+  }
+  
+  .loginButton {
+    display: none;
+  }
+  
+  .mobileNavLink button {
+    background: none;
+    border: none;
+    font-family: var(--font-main);
+    font-size: var(--font-size-lg);
+    font-weight: 600;
+    color: var(--secondary-color);
+    padding: var(--spacing-md) 0;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-sm);
+  }
+}
