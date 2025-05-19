@@ -589,6 +589,16 @@
     react-dom "^19.1.0"
     react-router-dom "^7.6.0"
 
+"accenty@file:":
+  version "0.0.0"
+  resolved "file:"
+  dependencies:
+    accenty "file:"
+    accenty-fresh "file:"
+    react "^19.1.0"
+    react-dom "^19.1.0"
+    react-router-dom "^7.6.0"
+
 acorn-jsx@^5.3.2:
   version "5.3.2"
   resolved "https://registry.npmjs.org/acorn-jsx/-/acorn-jsx-5.3.2.tgz"

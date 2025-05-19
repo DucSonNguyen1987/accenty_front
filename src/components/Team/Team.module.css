@@ -21,6 +21,7 @@
   grid-template-columns: repeat(3, 1fr);
   gap: var(--spacing-2xl);
   margin-bottom: var(--spacing-2xl);
+  margin-top: var(--spacing-2xl) ;
 }
 
 .teamMember {
@@ -156,3 +157,4 @@
     margin-right: auto;
   }
 }
+
