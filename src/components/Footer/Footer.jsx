@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import styles from './Footer.module.css';
-import Logo from '../../../public/Images/logo.png'; // Assurez-vous que le chemin est correct
+import Logo from '/Images/logo.png'; // Assurez-vous que le chemin est correct
 
 const Footer = () => {
   const [email, setEmail] = useState('');
