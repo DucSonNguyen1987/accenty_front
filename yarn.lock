@@ -584,6 +584,7 @@
   version "0.0.0"
   resolved "file:"
   dependencies:
+    accenty "file:"
     accenty-fresh "file:"
     react "^19.1.0"
     react-dom "^19.1.0"

@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import styles from './Footer.module.css';
+import Logo from '../../../public/images/logo.png'; // Assurez-vous que le chemin est correct
 
 const Footer = () => {
   const [email, setEmail] = useState('');
@@ -29,7 +30,7 @@ const Footer = () => {
       <div className="container">
         <div className={styles.footerTop}>
           <div className={styles.footerLogo}>
-            <img src="/images/logo.png" alt="Accenty & Co Logo" className={styles.logoImage} />
+            <img src={Logo} alt="Accenty & Co Logo" className={styles.logoImage} />
             <div className={styles.logoText}>
               Accenty <span>&</span> Co
             </div>

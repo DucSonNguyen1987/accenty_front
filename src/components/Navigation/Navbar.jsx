@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import styles from './Navbar.module.css';
 import { useAuth } from '../../context/AuthContext';
+import Logo from '../../../public/Images/logo.png';
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -38,7 +39,7 @@ const Navbar = () => {
     <nav className={`${styles.navbar} ${scrolled ? styles.navbarScrolled : ''}`}>
       <div className={`container ${styles.navContainer}`}>
         <Link to="/" className={styles.logo}>
-          <img src="/images/logo.png" alt="Accenty & Co Logo" />
+          <img src={Logo} alt="Accenty & Co Logo" />
           <div className={styles.logoText}>
             Accenty <span>&</span> Co
           </div>
