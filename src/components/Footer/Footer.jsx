@@ -170,16 +170,16 @@ const Footer = () => {
             <div className={styles.contactInfo}>
               <i className={`fas fa-map-marker-alt ${styles.contactIcon}`}></i>
               <div className={styles.contactText}>
-                123 Avenue des Événements<br />
-                75001 Paris, France
+                372, avenue Colonel Mondjiba<br />
+                    Quartier Basoko, Commune Ngaliema<br />
+                    Kinshasa, RD Congo
               </div>
             </div>
             
             <div className={styles.contactInfo}>
               <i className={`fas fa-phone-alt ${styles.contactIcon}`}></i>
               <div className={styles.contactText}>
-                +33 1 23 45 67 89<br />
-                +33 1 98 76 54 32
+                +243 894 79 79 36
               </div>
             </div>
             

@@ -158,3 +158,70 @@
   }
 }
 
+
+.teamFilters button{
+ margin-top: 1vh;
+ margin-left: 1vw;
+}
+
+
+
+.valuesGrid{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 4vh;
+}
+
+.valueCard{
+  
+  width: 25%;
+  border-radius: 5px;
+  margin: 5px;
+  padding:5%;
+box-shadow: var(--shadow-md);  
+}
+
+.valueCard i{
+  scale: 3.5;
+  color: var(--primary-color);
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+ 
+
+.jobList{
+  display: flex;
+  flex-direction: row;
+  gap: 5vw;
+  align-items: center;
+  list-style-type: none;
+  margin-bottom: 5vh;
+  margin-top: 5vh;
+}
+
+.jobItem{
+  padding: 5%;
+  box-shadow: var(--shadow-md);
+  border-radius: 5px;
+}
+
+.jobMeta{
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+}
+
+.jobTitle{
+  font-weight: 800;
+  font-size: 1rem;
+  color: var(--secondary-color);
+  margin-bottom: 1.5vh;
+}
+
+.jobLocation{
+  margin-bottom: 1vh;
+}
+
+.ctaSection ctaButtons Link{
+  margin-right: 1vw;
+}

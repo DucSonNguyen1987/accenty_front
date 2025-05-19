@@ -4,7 +4,9 @@
   background-color: var(--secondary-color);
   color: white;
   padding-top: var(--spacing-3xl);
-  margin-top: auto;
+  margin-top: 5vh;
+  width: 100vw;
+  align-self: center;
 }
 
 .footerTop {

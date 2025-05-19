@@ -3,13 +3,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from './Hero.module.css';
+import heroBg from '../../../public/images/hero-bg.jpg';
 
 const Hero = () => {
   return (
     <section className={styles.hero}>
       <div className={styles.heroBg}>
         <img 
-          src="/images/hero-bg.jpg" 
+          src={heroBg}
           alt="Événement élégant organisé par Accenty & Co" 
           className={styles.heroBgImage}
         />

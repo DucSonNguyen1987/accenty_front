@@ -4,10 +4,12 @@
   position: relative;
   height: 100vh;
   min-height: 700px;
+  width: 100vw;
   display: flex;
   align-items: center;
   overflow: hidden;
   background-color: var(--secondary-color);
+  margin-left: -17vw;
 }
 
 .heroBg {
@@ -86,7 +88,8 @@
 @media (max-width: 768px) {
   .hero {
     min-height: 600px;
-  }
+    width: 800px;
+left: 10vw;  }
   
   .title {
     font-size: var(--font-size-4xl);
