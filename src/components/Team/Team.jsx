@@ -74,7 +74,7 @@ const teamData = [
     name: 'Ilunga Kalonji',
     role: 'Chef de Projet',
     bio: 'Spécialiste des événements corporatifs, Ilunga conçoit des expériences professionnelles sur-mesure qui répondent aux objectifs stratégiques.',
-    image: '//Images/team/StaffMale3.png',
+    image: '/Images/team/StaffMale3.png',
     skills: ['Événements Corporate', 'Coordination', 'Analyse'],
     social: {
       linkedin: 'https://linkedin.com/',

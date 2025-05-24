@@ -11,7 +11,7 @@ const Testimonials = ({ title, subtitle, testimonials: propTestimonials }) => {
       text: "L'équipe d'Accenty & Co a transformé notre mariage en un moment magique. Chaque détail était parfait, et nous avons pu profiter pleinement de notre journée sans stress.",
       author: "Kamwanya & Mukeba",
       role: "Mariage Juin 2024",
-      image: "/images/testimonials/testimonial1.jpg",
+      image: "/Images/testimonials/Wedding5.jpg",
       rating: 5
     },
     {
@@ -19,7 +19,7 @@ const Testimonials = ({ title, subtitle, testimonials: propTestimonials }) => {
       text: "Notre conférence annuelle a été un succès retentissant grâce à Accenty & Co. Organisation impeccable, décoration élégante, et une équipe toujours à l'écoute de nos besoins.",
       author: "Kabedi Lukusa",
       role: "Directrice Marketing, TechVision",
-      image: "/images/testimonials/testimonial2.jpg",
+      image: "/Images/testimonials/Corporate3.png",
       rating: 5
     },
     {
@@ -27,7 +27,7 @@ const Testimonials = ({ title, subtitle, testimonials: propTestimonials }) => {
       text: "Pour mes 40 ans, je voulais quelque chose de spécial. Accenty & Co a dépassé toutes mes attentes avec une fête sur-mesure que mes invités n'oublieront jamais.",
       author: "Mwamba Mudimbi",
       role: "Anniversaire Avril 2024",
-      image: "/images/testimonials/testimonial3.jpg",
+      image: "/Images/testimonials/Party3.png",
       rating: 5
     },
     {
@@ -35,7 +35,7 @@ const Testimonials = ({ title, subtitle, testimonials: propTestimonials }) => {
       text: "Le lancement de notre nouveau produit a été parfaitement orchestré par Accenty & Co. L'événement a généré un buzz incroyable et les retombées médiatiques ont dépassé nos objectifs.",
       author: "Kadima Mabele",
       role: "Directeur Commercial, NexGen",
-      image: "/images/testimonials/testimonial4.jpg",
+      image: "/Images/testimonials/Party4.png",
       rating: 4
     },
     {
@@ -43,7 +43,7 @@ const Testimonials = ({ title, subtitle, testimonials: propTestimonials }) => {
       text: "Un grand merci à toute l'équipe pour l'organisation de notre gala caritatif. Grâce à votre professionnalisme, nous avons récolté plus de fonds que jamais auparavant.",
       author: "Fondation Nkosi",
       role: "Gala annuel 2024",
-      image: "/images/testimonials/testimonial5.jpg",
+      image: "/Images/testimonials/Diner.png",
       rating: 5
     }
   ];

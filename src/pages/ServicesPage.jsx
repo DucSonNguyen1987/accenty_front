@@ -53,7 +53,7 @@ const ServicesPage = () => {
       title: 'Mariages & Cérémonies',
       description: 'Des mariages uniques et inoubliables, organisés avec soin pour créer des moments magiques. Notre équipe d\'experts vous accompagne à chaque étape, de la planification à la coordination le jour J.',
       icon: 'fa-heart',
-      image: '/images/services/wedding.jpg',
+      image: '/Images/services/Wedding.png',
       features: [
         'Coordination complète ou partielle',
         'Sélection du lieu et des prestataires',
@@ -62,13 +62,13 @@ const ServicesPage = () => {
         'Planification du timing de la journée',
         'Coordination le jour J'
       ],
-      price: 'À partir de 3 500 €',
+      price: 'À partir de 3 500 USD$',
       category: 'wedding',
       details: 'Notre service de planification de mariage est conçu pour vous offrir une expérience sans stress et mémorable. Nous commençons par une consultation approfondie pour comprendre votre vision et vos attentes. Ensuite, nous élaborons un concept unique qui reflète votre personnalité et vos goûts. Notre équipe se charge de la sélection et de la coordination des prestataires, de la gestion du budget, et de tous les aspects logistiques. Le jour J, nous assurons une coordination impeccable pour que vous puissiez profiter pleinement de votre journée spéciale.',
       packages: [
         {
           title: 'Coordination Jour J',
-          price: '1 500 €',
+          price: '1 500 USD$',
           includes: [
             'Réunion de préparation 1 mois avant',
             'Création du planning détaillé',
@@ -79,7 +79,7 @@ const ServicesPage = () => {
         },
         {
           title: 'Organisation Partielle',
-          price: '3 500 €',
+          price: '3 500 USD$',
           includes: [
             'Sélection des prestataires manquants',
             'Conseils déco et ambiance',
@@ -90,7 +90,7 @@ const ServicesPage = () => {
         },
         {
           title: 'Organisation Complète',
-          price: '6 500 €',
+          price: '6 500 USD$',
           includes: [
             'Accompagnement de A à Z',
             'Recherche du lieu et tous prestataires',
@@ -107,7 +107,7 @@ const ServicesPage = () => {
       title: 'Événements Corporatifs',
       description: 'Des événements professionnels sur-mesure qui reflètent les valeurs et objectifs de votre entreprise. Séminaires, conférences, soirées d\'entreprise, team building...',
       icon: 'fa-briefcase',
-      image: '/images/services/corporate.jpg',
+      image: '/Images/services/Corporate.png',
       features: [
         'Séminaires et conférences',
         'Lancements de produits',
@@ -116,13 +116,13 @@ const ServicesPage = () => {
         'Salons professionnels',
         'Conventions et assemblées'
       ],
-      price: 'À partir de 2 500 €',
+      price: 'À partir de 2 500 USD$',
       category: 'corporate',
       details: 'Nos événements d\'entreprise sont conçus pour répondre à vos objectifs professionnels tout en offrant une expérience mémorable. Que vous souhaitiez renforcer votre culture d\'entreprise, lancer un nouveau produit, ou organiser une conférence marquante, notre équipe crée des concepts originaux et impactants. Nous prenons en charge la stratégie, la planification, la logistique, et la coordination afin que vous puissiez vous concentrer sur les aspects stratégiques de votre événement.',
       packages: [
         {
           title: 'Séminaire / Conférence',
-          price: '2 500 €',
+          price: '2 500 USD$',
           includes: [
             'Recherche du lieu adapté',
             'Coordination technique',
@@ -133,7 +133,7 @@ const ServicesPage = () => {
         },
         {
           title: 'Team Building',
-          price: '1 800 €',
+          price: '1 800 USD$',
           includes: [
             'Conception d\'activités personnalisées',
             'Sélection des prestataires',
@@ -144,7 +144,7 @@ const ServicesPage = () => {
         },
         {
           title: 'Soirée d\'entreprise',
-          price: '4 500 €',
+          price: '4 500 USD$',
           includes: [
             'Concept créatif et thématique',
             'Scénographie complète',
@@ -161,7 +161,7 @@ const ServicesPage = () => {
       title: 'Célébrations Privées',
       description: 'Des événements personnalisés pour célébrer les moments importants de votre vie. Anniversaires, baptêmes, fêtes familiales, célébrations diverses...',
       icon: 'fa-birthday-cake',
-      image: '/images/services/private.jpg',
+      image: '/Images/services/Party.jpg',
       features: [
         'Anniversaires et fêtes',
         'Baptêmes et baby showers',
@@ -170,13 +170,13 @@ const ServicesPage = () => {
         'Célébrations diverses',
         'Événements sur-mesure'
       ],
-      price: 'À partir de 1 500 €',
+      price: 'À partir de 1 500 USD$',
       category: 'private',
       details: 'Chaque moment important de votre vie mérite d\'être célébré avec style. Nos services d\'organisation d\'événements privés sont conçus pour créer des expériences personnalisées qui reflètent votre personnalité et vos envies. De la conception créative à la coordination le jour J, nous nous occupons de tous les détails pour que vous puissiez profiter pleinement de votre événement avec vos proches.',
       packages: [
         {
           title: 'Événement Simple',
-          price: '1 500 €',
+          price: '1 500 USD$',
           includes: [
             'Conception du concept',
             'Conseil en décoration',
@@ -187,7 +187,7 @@ const ServicesPage = () => {
         },
         {
           title: 'Événement Thématique',
-          price: '2 800 €',
+          price: '2 800 USD$',
           includes: [
             'Création d\'un thème sur-mesure',
             'Scénographie et décoration complète',
@@ -198,7 +198,7 @@ const ServicesPage = () => {
         },
         {
           title: 'Célébration Premium',
-          price: '4 500 €',
+          price: '4 500 USD$',
           includes: [
             'Concept exclusif et personnalisé',
             'Décoration haut de gamme',
@@ -215,7 +215,7 @@ const ServicesPage = () => {
       title: 'Lancements de Produits',
       description: 'Mettez en valeur votre nouveau produit ou service avec un événement spectaculaire qui capte l\'attention et génère du buzz médiatique.',
       icon: 'fa-rocket',
-      image: '/images/services/launch.jpg',
+      image: '/Images/services/LaunchParty.png',
       features: [
         'Stratégie de lancement',
         'Scénographie et mise en scène',
@@ -224,13 +224,13 @@ const ServicesPage = () => {
         'Activations de marque',
         'Évaluation des retombées'
       ],
-      price: 'À partir de 4 000 €',
+      price: 'À partir de 4 000 USD$',
       category: 'launch',
       details: 'Un lancement de produit réussi nécessite une stratégie efficace et une exécution impeccable. Notre équipe crée des événements de lancement qui mettent en valeur les atouts de votre produit et génèrent l\'enthousiasme nécessaire. Nous combinons créativité, technologie et expérience utilisateur pour créer des moments mémorables qui renforcent votre marque et maximisent l\'impact médiatique.',
       packages: [
         {
           title: 'Lancement Standard',
-          price: '4 000 €',
+          price: '4 000 USD$',
           includes: [
             'Concept créatif',
             'Organisation logistique',
@@ -241,7 +241,7 @@ const ServicesPage = () => {
         },
         {
           title: 'Lancement Premium',
-          price: '7 500 €',
+          price: '7 500 USD$',
           includes: [
             'Stratégie de lancement complète',
             'Scénographie immersive',
@@ -253,7 +253,7 @@ const ServicesPage = () => {
         },
         {
           title: 'Lancement Prestige',
-          price: '12 000 €',
+          price: '12 000 USD$',
           includes: [
             'Stratégie 360° et storytelling',
             'Lieu exclusif et aménagement complet',
@@ -270,7 +270,7 @@ const ServicesPage = () => {
       title: 'Galas & Dîners',
       description: 'Des soirées élégantes et raffinées pour vos événements de prestige. Galas caritatifs, dîners de gala, remises de prix...',
       icon: 'fa-glass-cheers',
-      image: '/images/services/gala.jpg',
+      image: '/Images/services/Gala.png',
       features: [
         'Dîners de gala',
         'Événements caritatifs',
@@ -279,13 +279,13 @@ const ServicesPage = () => {
         'Dîners d\'exception',
         'Événements de prestige'
       ],
-      price: 'À partir de 5 000 €',
+      price: 'À partir de 5 000 USD$',
       category: 'gala',
       details: 'Nos galas et dîners sont conçus pour impressionner et créer des souvenirs durables. Avec une attention méticuleuse aux détails, nous créons des atmosphères élégantes et raffinées qui reflètent l\'importance de votre événement. De la sélection du lieu prestigieux à la création d\'une expérience culinaire exceptionnelle, nous orchestrons chaque aspect pour garantir une soirée mémorable qui dépasse les attentes de vos invités.',
       packages: [
         {
           title: 'Dîner Élégant',
-          price: '5 000 €',
+          price: '5 000 USD$',
           includes: [
             'Sélection du lieu',
             'Coordination avec le traiteur',
@@ -296,7 +296,7 @@ const ServicesPage = () => {
         },
         {
           title: 'Gala Caritatif',
-          price: '8 500 €',
+          price: '8 500 USD$',
           includes: [
             'Concept et thématisation',
             'Décoration complète',
@@ -308,7 +308,7 @@ const ServicesPage = () => {
         },
         {
           title: 'Événement Prestige',
-          price: '15 000 €',
+          price: '15 000 USD$',
           includes: [
             'Lieu exclusif',
             'Scénographie immersive',

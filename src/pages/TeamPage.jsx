@@ -17,7 +17,7 @@ const TeamPage = () => {
       name: 'Mujinga Kalombo',
       role: 'Fondatrice & Directrice',
       bio: 'Passionnée d\'événementiel depuis 15 ans, Mujinga a fondé Accenty & Co avec la vision de créer des expériences uniques et mémorables. Son expertise en design et sa créativité sans limites lui permettent de transformer chaque événement en une expérience extraordinaire.',
-      image: './Images/team/StaffFemale1.png',
+      image: '/Images/team/StaffFemale1.png',
       skills: ['Stratégie', 'Direction Artistique', 'Relations Clients'],
       department: 'Direction',
       quote: "L'excellence n'est pas une compétence, c'est une attitude.",

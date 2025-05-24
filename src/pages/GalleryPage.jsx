@@ -19,7 +19,7 @@ const GalleryPage = () => {
   const galleryData = [
     {
       id: 1,
-      image: '/images/events/event1.jpg',
+      image: '/Images/testimonials/Wedding5.jpg',
       category: 'Mariage',
       title: 'Mariage de Kamwanya & Mukeba',
       description: 'Un mariage élégant avec une décoration bohème chic dans un château de la Loire.',
@@ -27,7 +27,7 @@ const GalleryPage = () => {
     },
     {
       id: 2,
-      image: '/images/events/event2.jpg',
+      image: '/Images/testimonials/Corporate3.png',
       category: 'Corporatif',
       title: 'Conférence annuelle TechVision',
       description: 'Conférence tech avec 300 participants, incluant keynotes, ateliers et networking.',
@@ -35,7 +35,7 @@ const GalleryPage = () => {
     },
     {
       id: 3,
-      image: '/images/events/event3.jpg',
+      image: '/Images/testimonials/Party3.png',
       category: 'Anniversaire',
       title: 'Les 50 ans de Mwamba',
       description: 'Une célébration surprise avec thème années 70 pour 80 invités.',
@@ -43,7 +43,7 @@ const GalleryPage = () => {
     },
     {
       id: 4,
-      image: '/images/events/event4.jpg',
+      image: '/Images/testimonials/Inauguration.png',
       category: 'Lancement',
       title: 'Présentation nouvelle collection',
       description: 'Lancement de produit avec showroom, cocktail et démonstrations interactives.',
@@ -51,7 +51,7 @@ const GalleryPage = () => {
     },
     {
       id: 5,
-      image: '/images/events/event5.jpg',
+      image: '/Images/testimonials/Gala.png',
       category: 'Gala',
       title: 'Dîner de charité Fondation Nkosi',
       description: 'Gala annuel avec 200 participants, vente aux enchères et spectacle artistique.',
@@ -59,7 +59,7 @@ const GalleryPage = () => {
     },
     {
       id: 6,
-      image: '/images/events/event6.jpg',
+      image: '/Images/testimonials/Wedding4.png',
       category: 'Mariage',
       title: 'Cérémonie de Tshibola & Kalala',
       description: 'Mariage intime avec cérémonie en plein air et réception élégante pour 80 convives.',
@@ -67,7 +67,7 @@ const GalleryPage = () => {
     },
     {
       id: 7,
-      image: '/images/events/event7.jpg',
+      image: '/Images/testimonials/Corporate5.png',
       category: 'Corporatif',
       title: 'Séminaire équipe de direction',
       description: 'Retraite managériale de 3 jours avec activités team building et sessions stratégiques.',
@@ -75,7 +75,7 @@ const GalleryPage = () => {
     },
     {
       id: 8,
-      image: '/images/events/event8.jpg',
+      image: '/Images/testimonials/Birthday16.png',
       category: 'Anniversaire',
       title: 'Sweet 16 de Léa',
       description: 'Fête d\'anniversaire thématique avec photobooth, DJ et animations pour adolescents.',
@@ -83,7 +83,7 @@ const GalleryPage = () => {
     },
     {
       id: 9,
-      image: '/images/events/event9.jpg',
+      image: '/Images/testimonials/Party4.png',
       category: 'Lancement',
       title: 'Inauguration boutique Paris',
       description: 'Ouverture de magasin avec cocktail VIP, présentations et couverture presse.',
@@ -91,7 +91,7 @@ const GalleryPage = () => {
     },
     {
       id: 10,
-      image: '/images/events/event10.jpg',
+      image: '/Images/testimonials/Party3.png',
       category: 'Gala',
       title: 'Prix de l\'Innovation 2024',
       description: 'Cérémonie de remise de prix avec 150 invités dans un cadre prestigieux.',
@@ -99,7 +99,7 @@ const GalleryPage = () => {
     },
     {
       id: 11,
-      image: '/images/events/event11.jpg',
+      image: '/Images/testimonials/Wedding5.png',
       category: 'Mariage',
       title: 'Union de Jean & Marie',
       description: 'Mariage champêtre dans un domaine viticole avec 120 invités.',
@@ -107,7 +107,7 @@ const GalleryPage = () => {
     },
     {
       id: 12,
-      image: '/images/events/event12.jpg',
+      image: '/Images/testimonials/Workshop.png',
       category: 'Corporatif',
       title: 'Workshop Innovation Digitale',
       description: 'Atelier collaboratif pour 50 professionnels du secteur numérique.',

@@ -19,24 +19,32 @@ const Home = () => {
       icon: 'fa-glass-cheers',
       title: 'Mariages & Cérémonies',
       description: 'Nous créons le mariage de vos rêves, en gérant chaque détail pour une journée parfaite.',
+      image: '/Images/services/Wedding2.png',
+      fallbackImage: 'https://images.unsplash.com/photo-1519741497674-611481863552?w=400&h=300&fit=crop&auto=format',
     },
     {
       id: 2,
       icon: 'fa-briefcase',
       title: 'Événements Corporatifs',
       description: 'Séminaires, conférences et team buildings professionnels pour renforcer votre image de marque.',
+      image: '/Images/services/Corporate2.png',
+      fallbackImage: 'https://images.unsplash.com/photo-1511578314322-379afb476865?w=400&h=300&fit=crop&auto=format',
     },
     {
       id: 3,
       icon: 'fa-birthday-cake',
       title: 'Célébrations Privées',
       description: 'Anniversaires, baptêmes et fêtes familiales pour marquer les moments importants de votre vie.',
+      image: '/Images/services/Anniversaire.png',
+      fallbackImage: 'https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=400&h=300&fit=crop&auto=format',
     },
     {
       id: 4,
       icon: 'fa-store',
       title: 'Lancements de Produits',
       description: 'Mettez en valeur vos produits avec des événements spectaculaires qui captent l\'attention.',
+      image: '/Images/services/LaunchParty.png',
+      fallbackImage: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=400&h=300&fit=crop&auto=format',
     },
   ];
 
@@ -44,37 +52,37 @@ const Home = () => {
   const featuredGalleryItems = [
     {
       id: 1,
-      image: '/images/events/event1.jpg',
+      image: '/Images/testimonials/Wedding3.png',
       category: 'Mariage',
       title: 'Mariage de Kamwanya & Mukeba',
     },
     {
       id: 2,
-      image: '/images/events/event2.jpg',
+      image: '/Images/testimonials/Corporate3.png',
       category: 'Corporatif',
       title: 'Conférence annuelle TechVision',
     },
     {
       id: 3,
-      image: '/images/events/event3.jpg',
+      image: '/Images/testimonials/Party3.png',
       category: 'Anniversaire',
       title: 'Les 50 ans de Mwamba',
     },
     {
       id: 4,
-      image: '/images/events/event4.jpg',
+      image: '/Images/testimonials/Party4.png',
       category: 'Lancement',
       title: 'Présentation nouvelle collection',
     },
     {
       id: 5,
-      image: '/images/events/event5.jpg',
+      image: '/Images/testimonials/Diner.png',
       category: 'Gala',
       title: 'Dîner de charité Fondation Nkosi',
     },
     {
       id: 6,
-      image: '/images/events/event6.jpg',
+      image: '/Images/testimonials/Wedding4.png',
       category: 'Mariage',
       title: 'Cérémonie de Tshibola & Kalala',
     },
@@ -87,21 +95,21 @@ const Home = () => {
       text: "L'équipe d'Accenty & Co a transformé notre mariage en un moment magique. Chaque détail était parfait, et nous avons pu profiter pleinement de notre journée sans stress.",
       author: "Kamwanya & Mukeba",
       role: "Mariage Juin 2024",
-      image: "/images/testimonials/testimonial1.jpg"
+      image: "/Images/testimonials/Wedding5.jpg"
     },
     {
       id: 2,
       text: "Notre conférence annuelle a été un succès retentissant grâce à Accenty & Co. Organisation impeccable, décoration élégante, et une équipe toujours à l'écoute de nos besoins.",
       author: "Kabedi Lukusa",
       role: "Directrice Marketing, TechVision",
-      image: "/images/testimonials/testimonial2.jpg"
+      image: "/Images/testimonials/Corporate3.png"
     },
     {
       id: 3,
       text: "Pour mes 40 ans, je voulais quelque chose de spécial. Accenty & Co a dépassé toutes mes attentes avec une fête sur-mesure que mes invités n'oublieront jamais.",
       author: "Mwamba Mudimbi",
       role: "Anniversaire Avril 2024",
-      image: "/images/testimonials/testimonial3.jpg"
+      image: "/Images/testimonials/Party3.png"
     }
   ];
   return (

@@ -11,7 +11,7 @@ const Services = ({ title, subtitle, description, services, showButton = false }
       title: 'Mariages & Cérémonies',
       description: 'Des mariages uniques et inoubliables, organisés avec soin pour créer des moments magiques. Notre équipe d\'experts vous accompagne à chaque étape.',
       icon: 'fa-heart',
-      image: '/images/services/wedding.jpg',
+      image: '/Images/services/Wedding.png',
       features: [
         'Coordination complète ou partielle',
         'Sélection du lieu et des prestataires',
@@ -25,7 +25,7 @@ const Services = ({ title, subtitle, description, services, showButton = false }
       title: 'Événements Corporatifs',
       description: 'Des événements professionnels sur-mesure qui reflètent les valeurs et objectifs de votre entreprise. Séminaires, conférences, soirées d\'entreprise...',
       icon: 'fa-briefcase',
-      image: '/images/services/corporate.jpg',
+      image: '/Images/services/Corporate2.png',
       features: [
         'Séminaires et conférences',
         'Lancements de produits',
@@ -39,7 +39,7 @@ const Services = ({ title, subtitle, description, services, showButton = false }
       title: 'Célébrations Privées',
       description: 'Des événements personnalisés pour célébrer les moments importants de votre vie. Anniversaires, baptêmes, fêtes familiales...',
       icon: 'fa-birthday-cake',
-      image: '/images/services/private.jpg',
+      image: '/Images/services/Anniversaire.png',
       features: [
         'Anniversaires et fêtes',
         'Baptêmes et baby showers',
@@ -53,7 +53,7 @@ const Services = ({ title, subtitle, description, services, showButton = false }
       title: 'Lancements de Produits',
       description: 'Mettez en valeur votre nouveau produit ou service avec un événement spectaculaire qui capte l\'attention et génère du buzz médiatique.',
       icon: 'fa-rocket',
-      image: '/images/services/launch.jpg',
+      image: '/Images/services/LaunchParty.png',
       features: [
         'Stratégie de lancement',
         'Scénographie et mise en scène',
